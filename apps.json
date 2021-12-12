@@ -5067,11 +5067,13 @@
     "id": "nyancatclk",
     "name": "NyanCat WatchFace",
     "shortName": "NyanCat WatchFace",
-    "icon": "minionclk.png",
+    "icon": "screenshot.png",
     "version": "0.01",
-    "description": "This is a description of my awesome timer app",
-    "tags": "",
+    "description": "A nyan cat watch face",
+    "type": "clock",
+    "tags": "clock",
     "supports": ["BANGLEJS2"],
+    "allow_emulator": true,
     "storage": [
       { "name": "nyancatclk.app.js", "url": "app.js" },
       { "name": "nyancatclk.img", "url": "app-icon.js", "evaluate": true }
